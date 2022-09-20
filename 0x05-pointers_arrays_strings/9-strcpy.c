@@ -6,7 +6,7 @@
  * @src: A pointer to source string to copy from
  * Return: pointer to dest
  */
-ar *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 int len, i;
 len = 0;
